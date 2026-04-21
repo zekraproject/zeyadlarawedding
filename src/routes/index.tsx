@@ -14,17 +14,17 @@ import mountain from "@/assets/mountain.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Youssef & Salma · Wedding Invitation" },
+      { title: "Zeyad & Lara · Wedding Invitation" },
       {
         name: "description",
         content:
-          "Youssef Ghareb & Salma Gamel are getting married on May 7th, 2026 at the Four Seasons Hotel, Cairo. Open the invitation.",
+          "Zeyad Ashraf & Lara Sherif are getting married on May 7th, 2026 at the Four Seasons Hotel, Cairo. Open the invitation.",
       },
-      { property: "og:title", content: "Youssef & Salma · Wedding Invitation" },
+      { property: "og:title", content: "Zeyad & Lara · Wedding Invitation" },
       {
         property: "og:description",
         content:
-          "A vintage invitation to the wedding of Youssef Ghareb & Salma Gamel — May 7th, 2026, Four Seasons Cairo.",
+          "A vintage invitation to the wedding of Zeyad Ashraf & Lara Sherif — May 7th, 2026, Four Seasons Cairo.",
       },
     ],
   }),

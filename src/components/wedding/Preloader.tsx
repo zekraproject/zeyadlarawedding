@@ -24,13 +24,13 @@ export function Preloader() {
     >
       <div className="flex flex-col items-center gap-6 px-8 text-center animate-fade-in-slow">
         <img src={birdImg} alt="" className="w-20 h-20 opacity-90" />
-        <div className="font-script text-5xl text-ink leading-none">Y &amp; S</div>
+        <div className="font-script text-5xl text-ink leading-none">​Z &amp; L</div>
         <div className="h-px w-24 bg-ink/40" />
         <p className="text-[11px] sm:text-xs tracking-wider-vintage uppercase text-ink-soft max-w-xs">
           You have received an invitation from
         </p>
         <p className="font-serif-display text-lg sm:text-xl text-ink tracking-widest uppercase">
-          Youssef &amp; Salma
+          Zeyad &amp; Lara
         </p>
       </div>
     </div>
