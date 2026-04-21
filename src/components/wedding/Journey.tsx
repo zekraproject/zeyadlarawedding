@@ -8,7 +8,7 @@ function Arrow({ flip = false }: { flip?: boolean }) {
   return (
     <svg
       viewBox="0 0 120 80"
-      className={`w-24 h-16 text-ink ${flip ? "scale-x-[-1]" : ""}`}
+      className={`w-40 h-28 text-ink ${flip ? "scale-x-[-1]" : ""}`}
       fill="none"
       stroke="currentColor"
       strokeWidth="1.5"
