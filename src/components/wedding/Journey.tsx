@@ -48,7 +48,7 @@ export function Journey() {
           </div>
           <div className="flex-1 text-center sm:text-left relative">
             <img src={rose} alt="" className="absolute -top-12 right-0 w-16 h-16 opacity-80 hidden sm:block" />
-            <p className="font-script-alt text-2xl sm:text-3xl text-ink leading-snug">
+            <p className="font-script-alt text-2xl sm:text-3xl text-ink leading-snug px-[20px]">
               We first met and little did we know it was the beginning of something beautiful.
             </p>
           </div>
@@ -72,7 +72,7 @@ export function Journey() {
           </div>
           <div className="flex-1 text-center sm:text-right relative">
             <img src={butterfly} alt="" className="absolute -top-10 left-0 w-16 h-16 opacity-80 hidden sm:block animate-float" />
-            <p className="font-script-alt text-2xl sm:text-3xl text-ink leading-snug">
+            <p className="font-script-alt text-2xl sm:text-3xl text-ink leading-snug px-[19px] ml-0 mt-[10px]">
               We started our journey together, sharing laughter, dreams, and countless memories.
             </p>
           </div>
