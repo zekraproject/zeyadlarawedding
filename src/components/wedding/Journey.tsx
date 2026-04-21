@@ -15,8 +15,11 @@ function Arrow({ flip = false }: { flip?: boolean }) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <path d="M60 5 L60 65" strokeDasharray="4 5" />
-      <path d="M45 50 L60 70 L75 50" />
+      <path
+        d="M60 8 C 90 8, 95 35, 65 38 C 40 40, 38 18, 60 18 C 80 18, 80 50, 60 60"
+        strokeDasharray="4 5"
+      />
+      <path d="M50 52 L60 62 L70 52" />
     </svg>
   );
 }
