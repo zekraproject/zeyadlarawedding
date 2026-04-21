@@ -2,8 +2,10 @@ import { useState } from "react";
 import m1 from "@/assets/moment-1.jpg";
 import m2 from "@/assets/moment-2.jpg";
 import m3 from "@/assets/moment-3.jpg";
+import m4 from "@/assets/moment-4.jpg";
+import m5 from "@/assets/moment-5.jpg";
 
-const slides = [m1, m2, m3];
+const slides = [m1, m2, m3, m4, m5];
 
 export function Moments() {
   const [i, setI] = useState(0);
@@ -11,9 +13,9 @@ export function Moments() {
 
   return (
     <section className="px-6 py-16 text-center">
-      <p className="text-[11px] sm:text-xs tracking-wider-vintage uppercase text-ink mb-8">
+      <h2 className="text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-10 font-serif-display">
         Moments
-      </p>
+      </h2>
 
       <div className="relative mx-auto max-w-md">
         <div className="vintage-frame inline-block w-full">

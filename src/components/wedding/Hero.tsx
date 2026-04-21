@@ -1,4 +1,4 @@
-import couplePortrait from "@/assets/couple-portrait.jpg";
+import couplePortrait from "@/assets/couple-hero.jpg";
 import gazebo from "@/assets/gazebo.png";
 
 interface HeroProps {
@@ -7,25 +7,25 @@ interface HeroProps {
 
 export function Hero({ onOpenInvitation }: HeroProps) {
   return (
-    <section className="relative px-6 pt-16 pb-20 sm:pt-24 sm:pb-28">
+    <section className="relative px-6 pt-24 pb-20 sm:pt-32 sm:pb-28">
       <div className="mx-auto max-w-xl text-center flex flex-col items-center">
-        <p className="text-[11px] sm:text-xs tracking-wider-vintage uppercase text-ink mb-6 animate-fade-up">
+        <h2 className="text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-6 mt-4 animate-fade-up font-serif-display">
           We are getting married
-        </p>
+        </h2>
 
         <img
           src={gazebo}
           alt=""
           width={400}
           height={400}
-          className="w-56 sm:w-72 h-auto mx-auto mb-2 animate-float"
+          className="w-56 sm:w-72 h-auto mx-auto mb-2"
         />
 
-        <h1 className="font-script text-5xl sm:text-6xl text-ink leading-[0.95] mt-2 animate-fade-up">
+        <h1 className="font-handwritten text-5xl sm:text-6xl text-ink leading-tight mt-2 animate-fade-up whitespace-nowrap">
           Youssef Ghareb
         </h1>
-        <span className="font-script-alt text-3xl sm:text-4xl text-ink-soft my-1">&amp;</span>
-        <h1 className="font-script text-5xl sm:text-6xl text-ink leading-[0.95] animate-fade-up">
+        <span className="font-handwritten text-4xl sm:text-5xl text-ink-soft my-1">&amp;</span>
+        <h1 className="font-handwritten text-5xl sm:text-6xl text-ink leading-tight animate-fade-up whitespace-nowrap">
           Salma Gamel
         </h1>
 
@@ -47,15 +47,15 @@ export function Hero({ onOpenInvitation }: HeroProps) {
             src={couplePortrait}
             alt="Youssef and Salma"
             width={1024}
-            height={1024}
-            className="w-64 sm:w-80 h-auto block"
+            height={1280}
+            className="w-80 sm:w-96 h-auto block object-cover aspect-[3/4]"
           />
         </div>
 
         <p className="mt-10 text-[11px] tracking-wider-vintage uppercase text-ink-soft">
           The wedding of
         </p>
-        <p className="font-script text-4xl sm:text-5xl text-ink mt-1">
+        <p className="font-handwritten text-4xl sm:text-5xl text-ink mt-2">
           Youssef &amp; Salma
         </p>
       </div>
