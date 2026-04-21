@@ -27,7 +27,7 @@ function Arrow({ flip = false }: { flip?: boolean }) {
 export function Journey() {
   return (
     <section className="px-6 py-20 relative overflow-hidden">
-      <h2 className="text-center text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-14 font-serif-display">
+       <h2 className="text-center sm:text-xl tracking-wider-vintage uppercase text-ink mb-14 font-serif-display text-lg">
         A Journey of Love
       </h2>
 
