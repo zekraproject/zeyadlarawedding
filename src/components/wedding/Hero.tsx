@@ -7,7 +7,7 @@ interface HeroProps {
 
 export function Hero({ onOpenInvitation }: HeroProps) {
   return (
-    <section className="relative px-6 pt-24 pb-20 sm:pt-32 sm:pb-28">
+    <section className="relative px-6 pt-24 sm:pt-32 sm:pb-28 pr-[24px] pb-[30px]">
       <div className="mx-auto max-w-xl text-center flex flex-col items-center">
         <h2 className="text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-6 mt-4 animate-fade-up font-serif-display">
           We are getting married
@@ -21,12 +21,12 @@ export function Hero({ onOpenInvitation }: HeroProps) {
           className="w-56 sm:w-72 h-auto mx-auto mb-2"
         />
 
-        <h1 className="font-brides text-6xl sm:text-7xl text-ink leading-tight mt-2 animate-fade-up whitespace-nowrap">
-          Youssef Ghareb
+        <h1 className="font-brides sm:text-7xl text-ink leading-tight mt-2 animate-fade-up whitespace-nowrap font-serif text-5xl">
+          Zeyad Ashraf
         </h1>
         <span className="font-brides text-5xl sm:text-6xl text-ink-soft my-1">&amp;</span>
-        <h1 className="font-brides text-6xl sm:text-7xl text-ink leading-tight animate-fade-up whitespace-nowrap">
-          Salma Gamel
+        <h1 className="font-brides sm:text-7xl text-ink leading-tight animate-fade-up whitespace-nowrap font-serif text-5xl">
+          Lara Sherif
         </h1>
 
         <p className="mt-8 text-sm sm:text-base text-ink tracking-widest">
@@ -55,8 +55,8 @@ export function Hero({ onOpenInvitation }: HeroProps) {
         <p className="mt-10 text-[11px] tracking-wider-vintage uppercase text-ink-soft">
           The wedding of
         </p>
-        <p className="font-brides text-5xl sm:text-6xl text-ink mt-2">
-          Youssef &amp; Salma
+        <p className="font-brides text-5xl sm:text-6xl text-ink mt-2 font-serif">
+          Zeyad &amp; Lara 
         </p>
       </div>
     </section>
