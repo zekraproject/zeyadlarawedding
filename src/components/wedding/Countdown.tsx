@@ -27,7 +27,7 @@ export function Countdown() {
 
   return (
     <div className="text-center">
-      <p className="sm:text-xs tracking-wider-vintage uppercase text-ink mb-4 text-base">
+       <p className="sm:text-xs tracking-wider-vintage uppercase text-ink mb-4 text-lg">
         Happily ever begins after 
       </p>
       <div className="font-serif-display text-3xl sm:text-5xl text-ink tabular-nums tracking-wider" suppressHydrationWarning>

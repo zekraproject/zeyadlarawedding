@@ -18,7 +18,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-xl text-center">
         <div className="mb-8 flex items-center justify-center gap-4">
           <span className="h-px w-12 bg-ink/40" />
-          <span className="text-[10px] tracking-wider-vintage uppercase text-ink-soft">
+           <span className="tracking-wider-vintage uppercase text-ink-soft text-base">
             With love
           </span>
           <span className="h-px w-12 bg-ink/40" />
@@ -36,7 +36,7 @@ export function Footer() {
           <span className="h-px w-20 bg-ink/30" />
         </div>
 
-        <p className="font-brides text-7xl sm:text-8xl text-ink leading-none">
+         <p className="font-brides sm:text-8xl text-ink leading-none font-serif text-5xl">
           Zeyad &amp; Lara
         </p>
         <p className="mt-8 text-[11px] tracking-wider-vintage uppercase text-ink-soft">

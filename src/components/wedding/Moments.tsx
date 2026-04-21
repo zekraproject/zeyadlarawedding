@@ -13,7 +13,7 @@ export function Moments() {
 
   return (
     <section className="px-6 py-16 text-center">
-      <h2 className="text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-10 font-serif-display">
+       <h2 className="sm:text-xl tracking-wider-vintage uppercase text-ink mb-10 font-serif-display text-lg">
         Moments
       </h2>
 
