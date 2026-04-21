@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Zeyad & Lara · Wedding Invitation" },
-      { name: "description", content: "Vintage wedding invitation — Zeyad & Lara, May 7, 2026, Four Seasons Cairo." },
-      { name: "author", content: "Zeyad & Lara" },
-      { property: "og:title", content: "Zeyad & Lara · Wedding Invitation" },
-      { property: "og:description", content: "Vintage wedding invitation — Zeyad & Lara, May 7, 2026, Four Seasons Cairo." },
+      { title: "Youssef & Salma · Wedding Invitation" },
+      { name: "description", content: "Vintage wedding invitation — Youssef & Salma, May 7, 2026, Four Seasons Cairo." },
+      { name: "author", content: "Youssef & Salma" },
+      { property: "og:title", content: "Youssef & Salma · Wedding Invitation" },
+      { property: "og:description", content: "Vintage wedding invitation — Youssef & Salma, May 7, 2026, Four Seasons Cairo." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Youssef & Salma · Wedding Invitation" },
+      { name: "twitter:description", content: "Vintage wedding invitation — Youssef & Salma, May 7, 2026, Four Seasons Cairo." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/830a30b4-ba90-49fb-8af2-59122cf28409/id-preview-0032e076--6b2c38ae-fe93-433f-b7c7-a13d738c5fb2.lovable.app-1776810177269.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/830a30b4-ba90-49fb-8af2-59122cf28409/id-preview-0032e076--6b2c38ae-fe93-433f-b7c7-a13d738c5fb2.lovable.app-1776810177269.png" },
     ],
     links: [
       {
