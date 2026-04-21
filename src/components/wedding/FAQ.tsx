@@ -27,9 +27,9 @@ export function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
   return (
     <section className="px-6 py-20">
-      <p className="text-center text-[11px] sm:text-xs tracking-wider-vintage uppercase text-ink mb-10">
+      <h2 className="text-center text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-12 font-serif-display">
         Good to Know
-      </p>
+      </h2>
       <div className="mx-auto max-w-xl">
         {faqs.map((f, idx) => {
           const isOpen = open === idx;

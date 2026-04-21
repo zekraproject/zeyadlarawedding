@@ -3,9 +3,9 @@ import venue from "@/assets/venue.jpg";
 export function Location() {
   return (
     <section className="px-6 py-16 text-center">
-      <p className="text-[11px] sm:text-xs tracking-wider-vintage uppercase text-ink mb-6">
+      <h2 className="text-base sm:text-xl tracking-wider-vintage uppercase text-ink mb-8 font-serif-display">
         Location
-      </p>
+      </h2>
       <div className="mx-auto max-w-md vintage-frame inline-block">
         <span className="corner-tr" />
         <span className="corner-bl" />
