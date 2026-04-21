@@ -37,7 +37,7 @@ export function Footer() {
         </div>
 
         <p className="font-brides text-7xl sm:text-8xl text-ink leading-none">
-          Youssef &amp; Salma
+          Zeyad &amp; Lara
         </p>
         <p className="mt-8 text-[11px] tracking-wider-vintage uppercase text-ink-soft">
           07 · 05 · 2026
