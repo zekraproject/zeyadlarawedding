@@ -11,6 +11,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Pinyon+Script&family=Italianno&family=Great+Vibes&family=Dancing+Script:wght@400;500;600;700&family=Parisienne&display=swap");
 
+@font-face {
+  font-family: "Runethia";
+  src: url("/fonts/Runethia.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -60,6 +68,7 @@
   --font-script: "Pinyon Script", "Italianno", cursive;
   --font-script-alt: "Italianno", "Pinyon Script", cursive;
   --font-handwritten: "Parisienne", "Great Vibes", "Dancing Script", cursive;
+  --font-brides: "Runethia", "Parisienne", cursive;
 }
 
 :root {
@@ -164,6 +173,7 @@
   .font-script { font-family: var(--font-script); }
   .font-script-alt { font-family: var(--font-script-alt); }
   .font-handwritten { font-family: var(--font-handwritten); }
+  .font-brides { font-family: var(--font-brides); }
   .font-serif-display { font-family: var(--font-serif); }
 
   .text-ink { color: var(--color-ink); }
