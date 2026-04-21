@@ -21,11 +21,11 @@ export function Hero({ onOpenInvitation }: HeroProps) {
           className="w-56 sm:w-72 h-auto mx-auto mb-2"
         />
 
-        <h1 className="font-handwritten text-5xl sm:text-6xl text-ink leading-tight mt-2 animate-fade-up whitespace-nowrap">
+        <h1 className="font-brides text-6xl sm:text-7xl text-ink leading-tight mt-2 animate-fade-up whitespace-nowrap">
           Youssef Ghareb
         </h1>
-        <span className="font-handwritten text-4xl sm:text-5xl text-ink-soft my-1">&amp;</span>
-        <h1 className="font-handwritten text-5xl sm:text-6xl text-ink leading-tight animate-fade-up whitespace-nowrap">
+        <span className="font-brides text-5xl sm:text-6xl text-ink-soft my-1">&amp;</span>
+        <h1 className="font-brides text-6xl sm:text-7xl text-ink leading-tight animate-fade-up whitespace-nowrap">
           Salma Gamel
         </h1>
 
@@ -55,7 +55,7 @@ export function Hero({ onOpenInvitation }: HeroProps) {
         <p className="mt-10 text-[11px] tracking-wider-vintage uppercase text-ink-soft">
           The wedding of
         </p>
-        <p className="font-handwritten text-4xl sm:text-5xl text-ink mt-2">
+        <p className="font-brides text-5xl sm:text-6xl text-ink mt-2">
           Youssef &amp; Salma
         </p>
       </div>
