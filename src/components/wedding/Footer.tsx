@@ -36,7 +36,7 @@ export function Footer() {
           <span className="h-px w-20 bg-ink/30" />
         </div>
 
-         <p className="font-brides sm:text-8xl text-ink leading-none text-5xl">
+         <p className="font-brides sm:text-8xl text-ink leading-none text-7xl">
           Zeyad &amp; Lara
         </p>
         <p className="mt-8 text-[11px] tracking-wider-vintage uppercase text-ink-soft">
