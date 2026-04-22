@@ -3,24 +3,16 @@ import journey2 from "@/assets/journey-2.jpg";
 import butterfly from "@/assets/butterfly.png";
 import rose from "@/assets/rose.png";
 import tree from "@/assets/tree.png";
+import arrowDown from "@/assets/arrow-down.png";
 
 function Arrow({ flip = false }: { flip?: boolean }) {
   return (
-    <svg
-      viewBox="0 0 120 80"
-      className={`w-40 h-28 text-ink ${flip ? "scale-x-[-1]" : ""}`}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path
-        d="M60 8 C 90 8, 95 35, 65 38 C 40 40, 38 18, 60 18 C 80 18, 80 50, 60 60"
-        strokeDasharray="4 5"
-      />
-      <path d="M50 52 L60 62 L70 52" />
-    </svg>
+    <img
+      src={arrowDown}
+      alt=""
+      aria-hidden="true"
+      className={`w-24 sm:w-28 h-auto opacity-90 ${flip ? "scale-x-[-1]" : ""}`}
+    />
   );
 }
 
