@@ -26,7 +26,7 @@ export function Location() {
         href="https://maps.google.com/?q=Four+Seasons+Hotel+Cairo+at+Nile+Plaza"
         target="_blank"
         rel="noreferrer"
-        className="mt-5 inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-ink text-paper text-xs tracking-[0.3em] uppercase hover:bg-ink/90 transition-all hover:scale-105"
+        className="mt-5 inline-flex items-center justify-center px-6 py-3.5 rounded-full bg-ink text-paper text-xs tracking-[0.3em] uppercase hover:bg-ink/90 transition-all hover:scale-105"
       >
         Google Maps
       </a>
