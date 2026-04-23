@@ -37,7 +37,7 @@ export function Hero({ onOpenInvitation }: HeroProps) {
           onClick={onOpenInvitation}
           className="mt-8 inline-flex items-center justify-center px-8 py-3 rounded-full bg-ink text-paper text-xs tracking-[0.3em] uppercase hover:bg-ink/90 transition-all hover:scale-105"
         >
-          Open Invitation
+          check details
         </button>
 
         <div className="mt-14 vintage-frame inline-block">
