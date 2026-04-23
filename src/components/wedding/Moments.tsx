@@ -12,8 +12,8 @@ export function Moments() {
   const go = (d: number) => setI((p) => (p + d + slides.length) % slides.length);
 
   return (
-    <section className="px-6 py-18 sm:py-20 text-center">
-       <h2 className="sm:text-xl tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink mb-10 font-serif-display text-lg">
+    <section className="px-6 py-16 text-center">
+       <h2 className="sm:text-xl tracking-wider-vintage uppercase text-ink mb-10 font-serif-display text-lg">
         Moments
       </h2>
 
@@ -27,11 +27,10 @@ export function Moments() {
                 key={idx}
                 src={src}
                 alt={`Moment ${idx + 1}`}
-                loading={idx === 0 ? "eager" : "lazy"}
-                decoding="async"
+                loading="lazy"
                 width={1024}
                 height={1024}
-                className={`absolute inset-0 w-full h-full object-cover image-soft-crisp transition-opacity duration-700 ${
+                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
                   idx === i ? "opacity-100" : "opacity-0"
                 }`}
               />

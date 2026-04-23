@@ -2,8 +2,8 @@ import venue from "@/assets/venue.jpg";
 
 export function Location() {
   return (
-    <section className="px-6 py-18 sm:py-20 text-center">
-       <h2 className="sm:text-xl tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink mb-8 font-serif-display text-lg">
+    <section className="px-6 py-16 text-center">
+       <h2 className="sm:text-xl tracking-wider-vintage uppercase text-ink mb-8 font-serif-display text-lg">
         Location
       </h2>
       <div className="mx-auto max-w-md vintage-frame inline-block">
@@ -13,10 +13,9 @@ export function Location() {
           src={venue}
           alt="Four Seasons Hotel Cairo"
           loading="lazy"
-          decoding="async"
           width={1024}
           height={896}
-          className="w-full h-auto block image-soft-crisp"
+          className="w-full h-auto block"
         />
       </div>
       <p className="mt-6 font-serif-display text-xl text-ink tracking-wide">
@@ -26,7 +25,7 @@ export function Location() {
         href="https://maps.google.com/?q=Four+Seasons+Hotel+Cairo+at+Nile+Plaza"
         target="_blank"
         rel="noreferrer"
-        className="mt-5 inline-flex items-center justify-center px-6 py-3.5 rounded-full bg-ink text-paper text-xs tracking-[0.3em] uppercase hover:bg-ink/90 transition-all hover:scale-105"
+        className="mt-5 inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-ink text-paper text-xs tracking-[0.3em] uppercase hover:bg-ink/90 transition-all hover:scale-105"
       >
         Google Maps
       </a>

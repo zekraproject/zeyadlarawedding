@@ -18,8 +18,8 @@ function Arrow({ flip = false }: { flip?: boolean }) {
 
 export function Journey() {
   return (
-    <section className="px-6 py-18 sm:py-20 relative overflow-hidden">
-       <h2 className="text-center sm:text-xl tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink mb-14 font-serif-display text-lg">
+    <section className="px-6 py-20 relative overflow-hidden">
+       <h2 className="text-center sm:text-xl tracking-wider-vintage uppercase text-ink mb-14 font-serif-display text-lg">
         A Journey of Love
       </h2>
 
@@ -35,7 +35,7 @@ export function Journey() {
               loading="lazy"
               width={1024}
               height={1024}
-              className="w-48 sm:w-56 h-auto block image-soft-crisp"
+              className="w-48 sm:w-56 h-auto block"
             />
           </div>
           <div className="flex-1 text-center sm:text-left relative">
@@ -59,10 +59,10 @@ export function Journey() {
               loading="lazy"
               width={1024}
               height={1024}
-              className="w-48 sm:w-56 h-auto block image-soft-crisp"
+              className="w-48 sm:w-56 h-auto block"
             />
           </div>
-          <div className="flex-1 text-center sm:text-center relative">
+          <div className="flex-1 text-center sm:text-right relative">
             <img src={butterfly} alt="" className="absolute -top-10 left-0 w-16 h-16 opacity-80 hidden sm:block animate-float" />
             <p className="font-script-alt text-2xl sm:text-3xl text-ink leading-snug px-[19px] ml-0 mt-[10px]">
               We started our journey together, sharing laughter, dreams, and countless memories.
@@ -74,7 +74,7 @@ export function Journey() {
 
         {/* Tree + final note */}
         <div className="flex flex-col items-center gap-4 pt-4">
-          <img src={tree} alt="" loading="lazy" decoding="async" width={768} height={768} className="w-48 sm:w-64 h-auto opacity-90 image-soft-crisp" />
+          <img src={tree} alt="" loading="lazy" width={768} height={768} className="w-48 sm:w-64 h-auto opacity-90" />
           <p className="font-script-alt text-2xl sm:text-3xl text-ink text-center max-w-md leading-snug">
             One photo is still missing... the one that completes our journey — and it will be with you at our wedding.
           </p>
