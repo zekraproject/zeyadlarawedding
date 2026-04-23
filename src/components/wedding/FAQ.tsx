@@ -26,8 +26,8 @@ const faqs = [
 export function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <section className="px-6 py-20">
-       <h2 className="text-center sm:text-xl tracking-wider-vintage uppercase text-ink mb-12 font-serif-display text-lg">
+    <section className="px-6 py-18 sm:py-20">
+       <h2 className="text-center sm:text-xl tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink mb-12 font-serif-display text-lg">
         Good to Know
       </h2>
       <div className="mx-auto max-w-xl">

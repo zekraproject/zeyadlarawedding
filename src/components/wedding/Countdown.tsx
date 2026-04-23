@@ -24,26 +24,39 @@ export function Countdown() {
     return () => clearInterval(id);
   }, []);
   const display = mounted ? t : ZERO;
+  const items = [
+    { value: String(display.d).padStart(2, "0"), label: "Days" },
+    { value: String(display.h).padStart(2, "0"), label: "Hours" },
+    { value: String(display.m).padStart(2, "0"), label: "Min" },
+    { value: String(display.s).padStart(2, "0"), label: "Sec" },
+  ];
 
   return (
     <div className="text-center">
-       <p className="sm:text-xs tracking-wider-vintage uppercase text-ink mb-4 text-lg">
+       <p className="sm:text-xs tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink mb-4 text-lg">
         Happily ever begins after 
       </p>
-      <div className="font-serif-display text-3xl sm:text-5xl text-ink tabular-nums tracking-wider" suppressHydrationWarning>
-        <span>{String(display.d).padStart(2, "0")}</span>
-        <span className="mx-2 text-ink-soft">:</span>
-        <span>{String(display.h).padStart(2, "0")}</span>
-        <span className="mx-2 text-ink-soft">:</span>
-        <span>{String(display.m).padStart(2, "0")}</span>
-        <span className="mx-2 text-ink-soft">:</span>
-        <span>{String(display.s).padStart(2, "0")}</span>
-      </div>
-      <div className="flex justify-center sm:gap-8 mt-2 text-[10px] sm:text-xs tracking-wider-vintage uppercase text-ink-soft gap-[32px]">
-        <span className="w-12 sm:w-16 pl-[20px]">Days</span>
-        <span className="w-8 sm:w-12 pr-[35px]">Hours</span>
-        <span className="w-8 sm:w-12 pr-0 pl-[2px]">Min</span>
-        <span className="w-8 sm:w-12 pr-[52px]">Sec</span>
+      <div
+        className="mt-2 inline-flex items-start justify-center gap-2 sm:gap-3"
+        suppressHydrationWarning
+      >
+        {items.map((item, index) => (
+          <div key={item.label} className="contents">
+            <div className="w-14 sm:w-20 text-center">
+              <p className="font-serif-display text-3xl sm:text-5xl text-ink tabular-nums tracking-wider leading-none">
+                {item.value}
+              </p>
+              <p className="mt-2 text-[10px] sm:text-xs tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink-soft leading-none">
+                {item.label}
+              </p>
+            </div>
+            {index < items.length - 1 ? (
+              <span className="font-serif-display text-3xl sm:text-5xl text-ink-soft leading-none pt-0.5">
+                :
+              </span>
+            ) : null}
+          </div>
+        ))}
       </div>
     </div>
   );

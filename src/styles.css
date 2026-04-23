@@ -160,6 +160,9 @@
     font-family: var(--font-serif);
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
   }
 
   h1, h2, h3, h4 {
@@ -182,6 +185,13 @@
   .bg-paper-deep { background-color: var(--color-paper-deep); }
 
   .tracking-wider-vintage { letter-spacing: 0.35em; }
+  .tracking-vintage-tight { letter-spacing: 0.24em; }
+
+  .image-soft-crisp {
+    image-rendering: auto;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
 
   .paper-bg {
     background-color: var(--color-paper);

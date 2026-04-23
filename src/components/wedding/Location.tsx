@@ -2,8 +2,8 @@ import venue from "@/assets/venue.jpg";
 
 export function Location() {
   return (
-    <section className="px-6 py-16 text-center">
-       <h2 className="sm:text-xl tracking-wider-vintage uppercase text-ink mb-8 font-serif-display text-lg">
+    <section className="px-6 py-18 sm:py-20 text-center">
+       <h2 className="sm:text-xl tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink mb-8 font-serif-display text-lg">
         Location
       </h2>
       <div className="mx-auto max-w-md vintage-frame inline-block">
@@ -13,9 +13,10 @@ export function Location() {
           src={venue}
           alt="Four Seasons Hotel Cairo"
           loading="lazy"
+          decoding="async"
           width={1024}
           height={896}
-          className="w-full h-auto block"
+          className="w-full h-auto block image-soft-crisp"
         />
       </div>
       <p className="mt-6 font-serif-display text-xl text-ink tracking-wide">

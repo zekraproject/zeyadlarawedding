@@ -3,7 +3,7 @@ import mountain from "@/assets/mountain.png";
 
 export function Footer() {
   return (
-    <footer className="relative px-6 pt-24 pb-14 overflow-hidden">
+    <footer className="relative px-6 pt-22 sm:pt-24 pb-14 overflow-hidden">
       <img
         src={mountain}
         alt=""
@@ -18,7 +18,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-xl text-center">
         <div className="mb-8 flex items-center justify-center gap-4">
           <span className="h-px w-12 bg-ink/40" />
-           <span className="tracking-wider-vintage uppercase text-ink-soft text-base">
+           <span className="tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink-soft text-base">
             With love
           </span>
           <span className="h-px w-12 bg-ink/40" />
@@ -36,10 +36,10 @@ export function Footer() {
           <span className="h-px w-20 bg-ink/30" />
         </div>
 
-         <p className="font-brides sm:text-8xl text-ink leading-none text-5xl">
+         <p className="font-brides sm:text-8xl text-ink leading-none text-4xl whitespace-nowrap pt-[2px] pb-[2px]">
           Zeyad &amp; Lara
         </p>
-        <p className="mt-8 text-[11px] tracking-wider-vintage uppercase text-ink-soft">
+        <p className="mt-8 text-[11px] tracking-vintage-tight sm:tracking-wider-vintage uppercase text-ink-soft">
           07 · 05 · 2026
         </p>
       </div>
