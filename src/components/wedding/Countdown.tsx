@@ -30,20 +30,27 @@ export function Countdown() {
        <p className="sm:text-xs tracking-wider-vintage uppercase text-ink mb-4 text-lg">
         Happily ever begins after 
       </p>
-      <div className="font-serif-display text-3xl sm:text-5xl text-ink tabular-nums tracking-wider" suppressHydrationWarning>
-        <span>{String(display.d).padStart(2, "0")}</span>
-        <span className="mx-2 text-ink-soft">:</span>
-        <span>{String(display.h).padStart(2, "0")}</span>
-        <span className="mx-2 text-ink-soft">:</span>
-        <span>{String(display.m).padStart(2, "0")}</span>
-        <span className="mx-2 text-ink-soft">:</span>
-        <span>{String(display.s).padStart(2, "0")}</span>
-      </div>
-      <div className="flex justify-center sm:gap-8 mt-2 text-[10px] sm:text-xs tracking-wider-vintage uppercase text-ink-soft gap-[32px]">
-        <span className="w-12 sm:w-16 pl-[20px]">Days</span>
-        <span className="w-8 sm:w-12 pr-[35px]">Hours</span>
-        <span className="w-8 sm:w-12 pr-0 pl-[2px]">Min</span>
-        <span className="w-8 sm:w-12 pr-[52px]">Sec</span>
+      <div className="flex justify-center items-start gap-4 sm:gap-8 tabular-nums" suppressHydrationWarning>
+        {[
+          { value: display.d, label: "Days" },
+          { value: display.h, label: "Hours" },
+          { value: display.m, label: "Min" },
+          { value: display.s, label: "Sec" },
+        ].map((unit, i, arr) => (
+          <div key={unit.label} className="flex items-start gap-4 sm:gap-8">
+            <div className="flex flex-col items-center">
+              <span className="font-serif-display text-3xl sm:text-5xl text-ink tracking-wider leading-none">
+                {String(unit.value).padStart(2, "0")}
+              </span>
+              <span className="mt-2 text-[10px] sm:text-xs tracking-wider-vintage uppercase text-ink-soft">
+                {unit.label}
+              </span>
+            </div>
+            {i < arr.length - 1 && (
+              <span className="font-serif-display text-3xl sm:text-5xl text-ink-soft leading-none">:</span>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );
